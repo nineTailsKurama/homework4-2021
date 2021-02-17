@@ -36,10 +36,11 @@ body{
   font-family: "Andika", sans-serif;
   background-image: url("../images/pigeon-background.JPEG");
   background-color: #DDDDDD;
+  background-repeat: no-repeat;
 }
 
 h1{
-  color: #B21F50;
+  color: #c12258;
   font-size: 2em;
 
   /*Req 2*/
@@ -75,14 +76,18 @@ td{
 /*Req 6b*/
 .colhead{
   color: #FFFFFF;
-
   min-width: 125px;
   padding: 10px;
   text-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
   background-color: #7e0820;
 
 }
+
+
+
+
 /*Req 6c*/
 .rowhead{
   border-right: 2px solid black;
@@ -142,4 +147,6 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  bottom: 0;
+  left: 0;
 }
